@@ -1,10 +1,12 @@
 import './App.css';
-import Condicao from './components/Condicao';
-import Welcome from './components/Welcome';
+import Condicao from './components/exercises/Condicao';
+import Navbar from './components/navbar/navbar';
+import Welcome from './components/exercises/Welcome';
 
 function App() {
 	return (
 		<>
+			<Navbar />
 			<Welcome nome="Welcome" />
 			<Condicao />
 			<Welcome
